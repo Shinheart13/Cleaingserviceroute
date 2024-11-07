@@ -10,7 +10,7 @@ service = build('sheets', 'v4', credentials=credentials)
 SPREADSHEET_ID = '1PurK5h1ewrsvKDtDhjdqLBFs8dM5Y4avS4i56L6gW0w'  # Replace with your actual Spreadsheet ID
 RANGE_NAME = 'Sheet1!B2:B5'  # Adjust the range to your data location
 
-API_KEY = 'AIzaSyA2JoLgfxQ6RfcmojL8xW_RSaNjWv4uC3Y'  # Replace with your actual Map Platform API key
+API_KEY = 'Your_API_Key_here'  # Go to Google Cloud Console and find Maps Platform API Key. Put it here.
 
 def get_addresses_from_sheet():
     """Fetches addresses from a specified Google Sheets range."""
